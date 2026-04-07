@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules/
+
+# VS Code directory 
+.vscode/*
+!.vscode/launch.json
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
