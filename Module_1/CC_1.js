@@ -51,6 +51,4 @@ let images = [
     }
 ];
 
-images.forEach(painting => {
-    console.log(`${painting.name}, ${painting.artist}, ${painting.date}`);
-});
+images.forEach(painting => console.log(`${painting.name}, ${painting.artist}, ${painting.date}`));

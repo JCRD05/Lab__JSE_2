@@ -73,18 +73,14 @@ images.forEach(image => console.log(`${image.title}, ${image.artist}, ${image.da
 console.log('');
 
 // Filling the images1 array from the images array using the Image function
-images.forEach(image => {
-    images1.push(new Image(image.title, image.artist, image.date));
-});
+images.forEach(image => images1.push(new Image(image.title, image.artist, image.date)));
 
 console.log('image1 array');
 images1.forEach(image => console.log(`${image.title}, ${image.artist}, ${image.date}`));
 console.log('');
 
 // Filling the images2 array from the images1 array using the getImage function
-images1.forEach(image => {
-    images2.push(getImage(image.title, image.artist, image.date));
-})
+images1.forEach(image => images2.push(getImage(image.title, image.artist, image.date)))
 
 console.log('image2 array');
 images2.forEach(image => console.log(`${image.title}, ${image.artist}, ${image.date}`));
