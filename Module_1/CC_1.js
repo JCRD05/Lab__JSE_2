@@ -1,4 +1,4 @@
-let paintings = [
+let images = [
     {
         name: 'Mona Lisa',
         artist: 'Leonardo da Vinci',
@@ -51,6 +51,6 @@ let paintings = [
     }
 ];
 
-paintings.forEach(painting => {
+images.forEach(painting => {
     console.log(`${painting.name}, ${painting.artist}, ${painting.date}`);
 });
