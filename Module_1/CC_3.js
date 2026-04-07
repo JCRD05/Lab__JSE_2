@@ -4,14 +4,6 @@ function Image(title, artist, date) {
     this.date = date;
 }
 
-function getImage(title, artist, date) {
-    return{
-        title,
-        artist,
-        date
-    }
-}
-
 let images = {
     list: [],
     contains: function(title) {
