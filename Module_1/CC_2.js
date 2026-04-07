@@ -80,7 +80,7 @@ images1.forEach(image => console.log(`${image.title}, ${image.artist}, ${image.d
 console.log('');
 
 // Filling the images2 array from the images1 array using the getImage function
-images1.forEach(image => images2.push(getImage(image.title, image.artist, image.date)))
+images1.forEach(image => images2.push(getImage(image.title, image.artist, image.date)));
 
 console.log('image2 array');
 images2.forEach(image => console.log(`${image.title}, ${image.artist}, ${image.date}`));
